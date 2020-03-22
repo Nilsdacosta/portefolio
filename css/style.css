@@ -44,6 +44,7 @@ hr{
     width: 35vw;
     text-align: center;
     position: relative;
+    cursor: pointer;
 }
 .navigation p{
     position: absolute;
@@ -69,16 +70,35 @@ hr{
     background-image: linear-gradient(-225deg, rgba(157, 199, 207, 0.2)0%, rgb(157, 199, 207, 0.7)50%), url('../image/fondQuatre.jpg');
     background-size: cover;
 }
+#competence:hover{
+    background-image: linear-gradient(-225deg, rgba(194, 211, 214, 0.6)0%, rgba(49, 120, 134, 0.9)50%), url('../image/fondQuatre.jpg');
+    background-size: cover;
+}
+
 #experience{
     background-image: linear-gradient(-225deg, rgba(233, 124, 0, 0.2)0%, rgba(233, 124, 0, 0.7)50%), url('../image/fondQuatre.jpg');
     background-size: cover;
 }
+#experience:hover{
+    background-image: linear-gradient(-225deg, rgba(189, 167, 143, 0.6)0%, rgba(126, 68, 2, 0.9)50%), url('../image/fondQuatre.jpg');
+    background-size: cover;
+}
+
 #projet{
     background-image: linear-gradient(-225deg, rgba(255, 108, 108, 0.2)0%, rgba(255, 108, 108, 0.7)50%), url('../image/fondQuatre.jpg');
     background-size: cover;
 }
+#projet:hover{
+    background-image: linear-gradient(-225deg, rgba(185, 126, 126, 0.6)0%, rgba(105, 44, 44, 0.9)50%), url('../image/fondQuatre.jpg');
+    background-size: cover;
+}
+
 #formation{
     background-image: linear-gradient(-225deg, rgba(9, 104, 96, 0.2)0%, rgba(9, 104, 96, 0.7)50%), url('../image/fondQuatre.jpg');
+    background-size: cover;
+}
+#formation:hover{
+    background-image: linear-gradient(-225deg, rgba(86, 109, 107, 0.6)0%, rgba(6, 70, 64, 0.9)50%), url('../image/fondQuatre.jpg');
     background-size: cover;
 }
 
