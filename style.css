@@ -1,0 +1,389 @@
+
+body{
+    font-family: 'Righteous', cursive;
+    background-image: url('image/bg.jpg');
+}
+hr{
+    margin: 1%;
+}
+
+.home{
+    display: flex;
+}
+/*--------------*/
+/* aPropos & co */
+/*--------------*/
+#aPropos{
+    display: none;
+    height: 84vh;
+    width: 65vw;
+    background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0)0%,rgba(255, 255, 255, 0)50%), url('image/fondSept.jpg');
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.photo{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 3em grey;
+}
+.content{
+    position: absolute;
+    display: none;
+    top: 50%;
+    transform:translateY(-50%);
+    color: black;
+    
+}
+/* ------ */
+.navigation{
+    display: none;
+    height: 21vh;
+    width: 35vw;
+    text-align: center;
+    position: relative;
+}
+.navigation p{
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2.5em;
+}
+.apparitionPara{
+    display: none;
+}
+.contact{
+    display: none;
+    height: 16vh;
+    width: 100vw;
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.2)0%, rgba(0, 0, 0, 0.7)50%), url('image/fondQuatre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#competence{
+    background-image: linear-gradient(-225deg, rgba(157, 199, 207, 0.2)0%, rgb(157, 199, 207, 0.7)50%), url('image/fondQuatre.jpg');
+    background-size: cover;
+}
+#experience{
+    background-image: linear-gradient(-225deg, rgba(233, 124, 0, 0.2)0%, rgba(233, 124, 0, 0.7)50%), url('image/fondQuatre.jpg');
+    background-size: cover;
+}
+#projet{
+    background-image: linear-gradient(-225deg, rgba(255, 108, 108, 0.2)0%, rgba(255, 108, 108, 0.7)50%), url('image/fondQuatre.jpg');
+    background-size: cover;
+}
+#formation{
+    background-image: linear-gradient(-225deg, rgba(9, 104, 96, 0.2)0%, rgba(9, 104, 96, 0.7)50%), url('image/fondQuatre.jpg');
+    background-size: cover;
+}
+
+/*----------------------------------------------------------------*/
+/*-------------------------pageCompetence-------------------------*/
+/*----------------------------------------------------------------*/
+#pageCompetence{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('image/bg.jpg'); */
+}
+.compGeneral{
+    position: relative;
+    height: 45vh;
+}
+.compGeneral .titre{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.compUn{
+    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('image/triUn.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 5% 0 0 0;
+}
+.compDeux{
+    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('image/triDeux.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-radius:0 5% 0 0;
+}
+.compTrois{
+    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('image/triTrois.jpg');
+    background-size: cover;
+    border-radius:0 0 0 5%;
+}
+.compQuatre{
+    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('image/triQuatre.jpg');
+    border-radius:0 0 5% 0;
+    background-size: cover;
+}
+.compLangage{
+    display: none;
+    position: absolute;
+    background-image: url('image/triAngHauGa.jpg');
+    background-size: cover;
+    border-radius: 5% 0 0 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    color: black;
+}
+.compFramework{
+    display: none;
+    position: absolute;
+    background-image: url('image/triAngHauDr.jpg');
+    background-size: cover;
+    border-radius:0 5% 0 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+.compLibrairie{
+    display: none;
+    position: absolute;
+    background-image: url('image/triAngBaGa.jpg');
+    background-size: cover;
+    border-radius:0 0 0 5%;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+.compOutil{
+    display: none;
+    position: absolute;
+    background-image: url('image/triAngBaDr.jpg');
+    background-size: cover;
+    border-radius:0 0 5% 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+.petiteRow{
+    height: 100%;
+}
+.icone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icone p{
+    font-size: 0.2em;
+    color: black;
+    font-weight: bold;
+}
+.html{
+    height: 50%;
+    color: rgb(214, 65, 11);
+    font-size: 7em;
+}
+.css3{
+    height: 50%;
+    color: blue;
+    font-size: 7em;
+}
+.javascript{
+    height: 50%;
+    color: rgb(219, 219, 6);
+    font-size: 7em;
+}
+.php{
+    height: 50%;
+    color: rgb(183, 183, 235);
+    font-size: 7em;
+}
+.symfony{
+    font-size: 8em;
+    color: black;
+}
+.angular{
+    font-size: 8em;
+    color: rgb(134, 7, 7);
+}
+.ajaxImage{
+    height: 240px;
+    width: auto;
+}
+.ajax{
+    height: 100%;
+    font-size: 7em;
+}
+.mysqlImage{
+    width: auto;
+}
+.mysql{
+    font-size: 7em;
+}
+.jquery{
+    height: 100%;
+    font-size: 7em;
+}
+.jQueryImage{
+    height: 240px;
+    width: auto;
+}
+.fontAwesome{
+    height: 50%;
+    color: rgb(0, 153, 255);
+    font-size: 7em;
+}
+.gitHub{
+    height: 50%;
+    color: black;
+    font-size: 7em;
+}
+.bootstrap{
+    height: 50%;
+    color: rgb(100, 6, 100);
+    font-size: 7em;
+}
+/* -------------------------------------------------------------- */
+/* -------------------------finCompetence------------------------ */
+/* -------------------------------------------------------------- */
+
+/*----------------------------------------------------------------*/
+/*-------------------------pageFormations-------------------------*/
+/*----------------------------------------------------------------*/
+#pageFormation{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('image/bg.jpg'); */
+    text-align: justify;
+}
+#pageFormation h3{
+    text-decoration: underline;
+}
+.contFormation{
+    width: 100%;
+    height: 100%;
+    padding-top: 3vh;
+}
+.devWeb{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    border-right: 1px solid black;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.autreDev{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    left: 35%;
+    padding-left: 1%;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mum{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    border-right: 1px solid black;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bgDevWeb{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.bgDevAuto{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.bgMum{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+/*----------------------------------------------------------------*/
+/*--------------------------finFormations-------------------------*/
+/*----------------------------------------------------------------*/
+
+#pageExperience{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*----------------------------------------------------------------*/
+/*--------------------------debutProjet---------------------------*/
+/*----------------------------------------------------------------*/
+#pageProjet{
+    /* display: none; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 238, 255);
+}
+/*----------------------------------------------------------------*/
+/*----------------------------finProjet---------------------------*/
+/*----------------------------------------------------------------*/
+
+.retour{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 2em;
+    color: black;
+}
+
+@media screen and (max-width: 800px){
+    .home{
+        display: block;
+    }
+    #aPropos{
+        height: 100vh;
+        width: 100vw;
+        background-color: red;
+    }
+    .navigation{
+        height: 10vh;
+        width: 100vw;
+        background-color: blue;
+    }
+    .compGeneral{
+        height: 25vh;
+        margin: 0;
+    }
+}
