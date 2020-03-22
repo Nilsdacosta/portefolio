@@ -6,7 +6,7 @@
         <title>Portefolio Nils Da Costa Cruz</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./css/style.css">
         
     </head>
 
@@ -18,11 +18,11 @@
             
             <div id="aPropos">
                 <div class="content">
-                    <img class="photo" src="image/moi.png" alt="#">
+                    <img class="photo" src="" alt="#">
                     <h1>NILS DA COSTA CRUZ</h1>
                     <h3>DEVELOPPEUR WEB JUNIOR</h3>
                     <h5>Petite phrase d'accroche</h5>
-                    <a href="image/CV-Nils-Da_Costa_Cruz.pdf" class="btn btn-success">Mon CV</a>
+                    <a href="../assets/docs/CV-Nils-Da_Costa_Cruz.pdf" class="btn btn-success">Mon CV</a>
                 </div>    
             </div>
 
@@ -109,14 +109,14 @@
                             <div class="row petiteRow">
                                 <div class="ajax col-sm-6">
                                     <div class="icone">
-                                        <img class="ajaxImage" src="image/ajax.svg" alt="">
+                                        <img class="ajaxImage" src="../assets/image/ajax.svg" alt="">
                                         <p>Ajax</p>
                                     </div>
                                     
                                 </div>
                                 <div class="jquery col-sm-6">
                                     <div class="icone">
-                                        <img class="jQueryImage" src="image/JQuery.png" alt="">
+                                        <img class="jQueryImage" src="../assets/image/JQuery.png" alt="">
                                         <p>jQuery</p>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="mysql col-sm-6">
                                     <div class="icone">
-                                        <img class="mysqlImage" src="image/mysql.svg" alt="">
+                                        <img class="mysqlImage" src="../assets/image/mysql.svg" alt="">
                                         <p>mySQL</p>
                                     </div>
                                 </div>
