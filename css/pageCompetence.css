@@ -1,0 +1,173 @@
+/*----------------------------------------------------------------*/
+/*-------------------------pageCompetence-------------------------*/
+/*----------------------------------------------------------------*/
+
+
+#pageCompetence{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('../assets/image/bg.jpg'); */
+}
+.fondCompetence{
+    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('../assets/image/fondCinq.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 5%;
+}
+.compGeneral{
+    position: relative;
+    height: 45vh;
+}
+.compGeneral .titre{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+.compLangage{
+    position: absolute;
+    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-size: cover;
+    border-radius: 5% 0 0 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+.compLangage:hover{
+    opacity: 100;
+    transition: opacity 1s;
+}
+.compFramework{
+    position: absolute;
+    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-size: cover;
+    border-radius:0 5% 0 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+.compFramework:hover{
+    opacity: 100;
+    transition: opacity 1s;
+}
+.compLibrairie{
+    position: absolute;
+    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-size: cover;
+    border-radius:0 0 0 5%;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+.compLibrairie:hover{
+    opacity: 100;
+    transition: opacity 1s;
+}
+.compOutil{
+    position: absolute;
+    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-size: cover;
+    border-radius:0 0 5% 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+}
+.compOutil:hover{
+    opacity: 100;
+    transition: opacity 1s;
+}
+.petiteRow{
+    height: 100%;
+}
+.icone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icone p{
+    font-size: 0.2em;
+    color: black;
+    font-weight: bold;
+}
+.html{
+    height: 50%;
+    color: rgb(214, 65, 11);
+    font-size: 7em;
+}
+.css3{
+    height: 50%;
+    color: blue;
+    font-size: 7em;
+}
+.javascript{
+    height: 50%;
+    color: rgb(219, 219, 6);
+    font-size: 7em;
+}
+.php{
+    height: 50%;
+    color: rgb(183, 183, 235);
+    font-size: 7em;
+}
+.symfony{
+    font-size: 8em;
+    color: black;
+}
+.angular{
+    font-size: 8em;
+    color: rgb(134, 7, 7);
+}
+.ajaxImage{
+    height: 240px;
+    width: auto;
+}
+.ajax{
+    height: 100%;
+    font-size: 7em;
+}
+.mysqlImage{
+    width: auto;
+}
+.mysql{
+    font-size: 7em;
+}
+.jquery{
+    height: 100%;
+    font-size: 7em;
+}
+.jQueryImage{
+    height: 240px;
+    width: auto;
+}
+.fontAwesome{
+    height: 50%;
+    color: rgb(0, 153, 255);
+    font-size: 7em;
+}
+.gitHub{
+    height: 50%;
+    color: black;
+    font-size: 7em;
+}
+.bootstrap{
+    height: 50%;
+    color: rgb(100, 6, 100);
+    font-size: 7em;
+}
+/* -------------------------------------------------------------- */
+/* -------------------------finCompetence------------------------ */
+/* -------------------------------------------------------------- */

@@ -1,0 +1,91 @@
+
+.interieur{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+}
+.exterieur span {
+    font-size: 2em;
+}
+.interieur section{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.interieur section.visible{
+    display: inline-block;
+}
+.exterieur{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+.precedente, .suivante{
+    cursor: pointer;
+}
+
+.visible{
+    height: 100%;
+    width: 100%;
+}
+.projetUn{
+    height: 100%;
+    width: 100%;
+}
+.projetDeux{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+.projetTrois{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://publicdomainvectors.org/photos/man-at-work-daisy.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.retour{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 2em;
+    color: black;
+}
+.titreProjet{
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    border-bottom: 1px solid black;
+    padding-top: 1%;
+}
+.bodyProjet{
+    position: relative;
+    height: 40vh;
+    overflow-y: scroll;
+    padding: 1%;
+}
+.footerProjet{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: brown;
+    padding: 1%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}

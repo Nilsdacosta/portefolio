@@ -7,42 +7,46 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
-        
+        <link rel="stylesheet" href="./css/pagePrincipale.css">
+        <link rel="stylesheet" href="./css/pageCompetence.css">
+        <link rel="stylesheet" href="./components/carousel/carousel.css">
     </head>
-
-
+    
     <body>
-
-
         <section class="home">
-            
             <div id="aPropos">
                 <div class="content">
-                    <img class="photo" src="" alt="#">
+                    <img class="photo" src="./assets/image/moi.png" alt="#">
                     <h1>NILS DA COSTA CRUZ</h1>
                     <h3>DEVELOPPEUR WEB JUNIOR</h3>
                     <h5>Petite phrase d'accroche</h5>
-                    <a href="../assets/docs/CV-Nils-Da_Costa_Cruz.pdf" class="btn btn-success">Mon CV</a>
-                </div>    
+                    <a href="./assets/docs/CV-Nils-Da_Costa_Cruz.pdf" class="btn btn-success">Mon CV</a>
+                </div>
             </div>
 
             <div>
                 <article id="competence" class="navigation">
-                    <p class="apparitionPara">Compétences</p>
+                    <div class="fondNav fondComp">
+                        <p class="apparitionPara">Compétences</p>
+                    </div>
                 </article>
                 <article id="formation" class="navigation">
-                    <p class="apparitionPara">Formations</p>
+                    <div class="fondNav fondFormation">
+                        <p class="apparitionPara">Formations</p>
+                    </div>
                 </article>
                 <article id="experience" class="navigation">
-                    <p class="apparitionPara">Experiences</p>
+                    <div class="fondNav fondExperience">
+                        <p class="apparitionPara">Experiences</p>
+                    </div>
                 </article>
                 <article id="projet" class="navigation">
-                    <p class="apparitionPara">Projets</p>
+                    <div class="fondNav fondProjet">
+                        <p class="apparitionPara">Projets</p>
+                    </div>
                 </article>
             </div>
         </section>
-
-        
 
         <!-- /////////////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////Debut Page Competences///////////////////////////// -->
@@ -50,8 +54,8 @@
         <section id="pageCompetence">
             <a href="#" class="retour"><i class="far fa-times-circle 3x"></i></a>
             <div class="container mt-5">
-                <div class="row">
-                    <div class="compGeneral compUn col-sm-6">
+                <div class="row fondCompetence">
+                    <div class="compGeneral col-sm-6">
                         <p class="titre">Langages</p>
                         <div class="compLangage">
                             <div class="row petiteRow">
@@ -79,11 +83,11 @@
                                         <p>PHP</p>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="compGeneral compDeux col-sm-6">
+
+                    <div class="compGeneral col-sm-6">
                         <p class="titre">Frameworks</p>
                         <div class="compFramework">
                             <div class="row petiteRow">
@@ -92,7 +96,6 @@
                                         <i class="fab fa-angular"></i>
                                         <p>Angular</p>
                                     </div>
-                                    
                                 </div>
                                 <div class="symfony col-sm-6">
                                     <div class="icone">
@@ -100,30 +103,29 @@
                                         <p>Symfony</p>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
-                    <div class="compGeneral compTrois col-sm-6">
+                    <div class="compGeneral col-sm-6">
                         <p class="titre">Librairies</p>
                         <div class="compLibrairie">
                             <div class="row petiteRow">
                                 <div class="ajax col-sm-6">
                                     <div class="icone">
-                                        <img class="ajaxImage" src="../assets/image/ajax.svg" alt="">
+                                        <img class="ajaxImage" src="./assets/image/ajax.svg" alt="">
                                         <p>Ajax</p>
                                     </div>
-                                    
                                 </div>
                                 <div class="jquery col-sm-6">
                                     <div class="icone">
-                                        <img class="jQueryImage" src="../assets/image/JQuery.png" alt="">
+                                        <img class="jQueryImage" src="./assets/image/JQuery.png" alt="">
                                         <p>jQuery</p>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
-                    <div class="compGeneral compQuatre col-sm-6">
+                    <div class="compGeneral col-sm-6">
                         <p class="titre">Outils</p>
                         <div class="compOutil">
                             <div class="row petiteRow">
@@ -147,11 +149,11 @@
                                 </div>
                                 <div class="mysql col-sm-6">
                                     <div class="icone">
-                                        <img class="mysqlImage" src="../assets/image/mysql.svg" alt="">
+                                        <img class="mysqlImage" src="./assets/image/mysql.svg" alt="">
                                         <p>mySQL</p>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -195,7 +197,7 @@
                     <h5><i class="fas fa-school"></i> AFPA-Dijon</h5>
                     <p>Avant de découvrir le développement j'ai fais une première reconversion dans le management. <br>
                     C'est toujours un plus de savoir comment martyriser légalement ses collaborateurs.</p>
-                </div>                
+                </div>
             </div>
         </section>
         <!-- /////////////////////////////////////////////////////////////////////////////// -->
@@ -213,25 +215,29 @@
         <section id="pageProjet">
             <a href="#" class="retour"><i class="far fa-times-circle 3x"></i></a>
             <p>ola que talis ?</p>
+            
+            <?php require_once("./components/carousel/carousel.php") ?>
         </section>
         <!-- /////////////////////////////////////////////////////////////////////////////// -->
         <!-- ////////////////////////////Fin Page Projet//////////////////////////////////// -->
         <!-- /////////////////////////////////////////////////////////////////////////////// -->
-        <footer class="contact">  
-            <a href="https://www.vecteezy.com/free-vector/triangle">Triangle Vectors by Vecteezy</a>    
+        <footer class="contact">
+            <a href="https://www.vecteezy.com/free-vector/triangle">Triangle Vectors by Vecteezy</a>
         </footer>
-        
+
+    
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="js/divArcticleApparition.js"></script>
-        <script src="js/apparition.js"></script>
-        <script src="js/reapparition.js"></script>
-        <script src="js/disparition.js"></script>
-        <script src="js/competenceMouse.js"></script>
-        <script src="js/retour.js"></script>
-        <script src="js/main.js"></script>
+
+        
+        <script src="./components/carousel/carousel.js"></script>
+        <script src="./js/divArcticleApparition.js"></script>
+        <script src="./js/reapparition.js"></script>
+        <script src="./js/disparition.js"></script>
+        <script src="./js/retour.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 
 </html>

@@ -22,7 +22,8 @@ $(monArticle).click(function(){
         $(".home").fadeOut();
     }else if(nomArticle == "#projet")
     {
-        window.location.href="html/projet.html";
+        $("#pageProjet").fadeIn();
+        $(".home").fadeOut();
     }else
     {
         alert("Erreur");
