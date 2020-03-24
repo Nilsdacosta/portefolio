@@ -10,7 +10,7 @@
                 <div class="interieur">
 
                     <section class="visible">
-                        <article class="projetUn">
+                        <div class="projetUn">
                             <div class="titreProjet">
                                 <h3>HotelManager</h3>
                             </div>
@@ -26,11 +26,11 @@
                             <div class="footerProjet">
                                 Rendez-vous à l'adresse suivante => <a href="https://hotelmanagerwf3.herokuapp.com">hotelmanagerwf3.herokuapp.com</a>
                             </div>
-                        </article>
+                        </div>
                     </section>
 
                     <section>
-                    <article class="projetDeux">
+                    <div class="projetDeux">
                             <div class="titreProjet">
                                 <h3>Jeu de reflexe</h3>
                             </div>
@@ -40,21 +40,7 @@
                             <div class="footerProjet">
                                 <a href="">Lien vers le projet</a>
                             </div>
-                        </article>
-                    </section>
-
-                    <section>
-                    <article class="projetTrois">
-                            <div class="titreProjet">
-                                <h3>On mange quoi ce soir ??</h3>
-                            </div>
-                            <div class="bodyProjet">
-                                <p>Projet en développement.. Bientôt sur github</p>
-                            </div>
-                            <div class="footerProjet">
-                                <a href="toto.php">Lien vers le projet</a>
-                            </div>
-                        </article>
+                        </div>
                     </section>
                     
                 </div>
