@@ -1,0 +1,76 @@
+#pageFormation{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('../assets/image/bg.jpg'); */
+    text-align: justify;
+}
+#pageFormation h3{
+    text-decoration: underline;
+}
+.contFormation{
+    width: 100%;
+    height: 100%;
+    padding-top: 3vh;
+}
+.devWeb{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    border-right: 1px solid black;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.autreDev{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    left: 35%;
+    padding-left: 1%;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mum{
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    border-right: 1px solid black;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bgDevWeb{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.bgDevAuto{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.bgMum{
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+hr{
+    margin: 1%;
+}

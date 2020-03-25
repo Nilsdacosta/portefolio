@@ -1,8 +1,3 @@
-/*----------------------------------------------------------------*/
-/*-------------------------pageCompetence-------------------------*/
-/*----------------------------------------------------------------*/
-
-
 #pageCompetence{
     display: none;
     position: absolute;
@@ -10,10 +5,9 @@
     left: 0px;
     width: 100vw;
     height: 100vh;
-    /* background-image: url('../assets/image/bg.jpg'); */
 }
 .fondCompetence{
-    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('../assets/image/fondCinq.jpg');
+    background-image: linear-gradient(-225deg, rgba(78, 73, 73, 0.3)0%, rgba(78, 73, 73, 0.3)50%), url('../../assets/image/fondCinq.jpg');
     background-size: cover;
     background-position: bottom;
     border-radius: 5%;
@@ -32,7 +26,7 @@
 }
 .compLangage{
     position: absolute;
-    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-image: url('../../assets/image/triAngBaGa.jpg');
     background-size: cover;
     border-radius: 5% 0 0 0;
     height: 100%;
@@ -46,7 +40,7 @@
 }
 .compFramework{
     position: absolute;
-    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-image: url('../../assets/image/triAngBaGa.jpg');
     background-size: cover;
     border-radius:0 5% 0 0;
     height: 100%;
@@ -60,7 +54,7 @@
 }
 .compLibrairie{
     position: absolute;
-    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-image: url('../../assets/image/triAngBaGa.jpg');
     background-size: cover;
     border-radius:0 0 0 5%;
     height: 100%;
@@ -74,7 +68,7 @@
 }
 .compOutil{
     position: absolute;
-    background-image: url('../assets/image/triAngBaGa.jpg');
+    background-image: url('../../assets/image/triAngBaGa.jpg');
     background-size: cover;
     border-radius:0 0 5% 0;
     height: 100%;
@@ -168,6 +162,3 @@
     color: rgb(100, 6, 100);
     font-size: 7em;
 }
-/* -------------------------------------------------------------- */
-/* -------------------------finCompetence------------------------ */
-/* -------------------------------------------------------------- */

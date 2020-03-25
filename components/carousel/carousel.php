@@ -32,13 +32,17 @@
                     <section>
                     <div class="projetDeux">
                             <div class="titreProjet">
-                                <h3>Jeu de reflexe</h3>
+                                <h3>On mange quoi ce soir ?</h3>
                             </div>
                             <div class="bodyProjet">
-                                <p>Jeu perso réalisé avec javascript et jquery pendant la formation pour m'entrainer</p>
+                                <p>Projet en construction !</p>
+                                <p>Il devra régler la problèmatique de beaucoup de ménage actuellement : qu'allons-nous manger cette semaine ?</p>
+                                <p>Il contiendra une base de données contenant des recettes de cuisine toutes prêtes mais il permettra également de rentrer ses propres recettes.</p>
+                                <p>Le but sera d'avoir accés à un nombre de recettes au hasard ainsi qu'aux ingrédients pour avoir une liste de courses rapide et ne pas à se creuser la tête avec cette question que tout le monde se pose continuellement !</p>
+                                <p>Il ser développé en PHP ou à l'aide de Symfony</p>
                             </div>
                             <div class="footerProjet">
-                                <a href="">Lien vers le projet</a>
+                                <a href="#">En construction</a>
                             </div>
                         </div>
                     </section>

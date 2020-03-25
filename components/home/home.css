@@ -1,11 +1,20 @@
 /*--------------*/
 /* aPropos & co */
 /*--------------*/
+.home{
+    display: flex;
+}
+.retour{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 2em;
+    color: black;
+}
 #aPropos{
-    /* display: none; */
     height: 84vh;
     width: 65vw;
-    background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0)0%,rgba(255, 255, 255, 0)50%), url('../assets/image/fondSept.jpg');
+    background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0)0%,rgba(255, 255, 255, 0)50%), url('../../assets/image/fondSept.jpg');
     background-size: cover;
     text-align: center;
     position: relative;
@@ -46,7 +55,7 @@
     text-align: center;
     position: relative;
     cursor: pointer;
-    background-image: url('../assets/image/fondQuatre.jpg');
+    background-image: url('../../assets/image/fondQuatre.jpg');
     background-size: cover;
 }
 .navigation p{
@@ -63,7 +72,7 @@
     /* display: none; */
     height: 16vh;
     width: 100vw;
-    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.4)0%, rgba(0, 0, 0, 0.9)50%), url('../assets/image/fondQuatre.jpg');
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.4)0%, rgba(0, 0, 0, 0.9)50%), url('../../assets/image/fondQuatre.jpg');
     background-size: cover;
     background-position: center;
     animation: slideinContact 5s linear forwards;
