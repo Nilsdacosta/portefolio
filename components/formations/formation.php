@@ -6,8 +6,7 @@
         <h5><i class="fas fa-school"></i> WebForce3-Lyon</i></h5>
         <p> J'ai appris au sein de WebForce3 les fondamentaux du développement Web.<br>
         C'était une formation courte et intense qui m'a appris à apprendre.<br>
-        Pas seulement l'aspect technique du web mais aussi les qualités nécessaire à un développeur !<br>
-        En termes de patience, de curiosité et surtout de persévérance !</p>
+        Non seulement l'aspect technique du web mais aussi les qualités nécessaires à un développeur : patience, curiosité et surtout persévérance !</p>
     </div>
     <hr>
     <div class="autreDev">

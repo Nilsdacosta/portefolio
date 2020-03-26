@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./components/competences/competence.css">
         <link rel="stylesheet" href="./components/formations/formation.css">
         <link rel="stylesheet" href="./components/carousel/carousel.css">
+        <link rel="stylesheet" href="./components/contact/contact.css">
     </head>
     
     <body>
@@ -44,32 +45,8 @@
             <?php require_once("./components/carousel/carousel.php") ?>
         </section>
         <!-- ////////////////////////////Fin Page Projet//////////////////////////////////// -->
-
-        <footer class="contact">
-            <a href="https://www.vecteezy.com/free-vector/triangle">Triangle Vectors by Vecteezy</a>
-            <h1>Contact</h1>
-    <form method="post">
-        <label>Email</label>
-        <input type="email" name="email" required><br>
-        <label>Message</label>
-        <textarea name="message" required></textarea><br>
-        <input type="submit">
-    </form>
-    <?php
-    if (isset($_POST['message'])) {
-        $position_arobase = strpos($_POST['email'], '@');
-        if ($position_arobase === false)
-            echo '<p>Votre email doit comporter un arobase.</p>';
-        else {
-            $retour = mail('nilsdacosta@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: ' . $_POST['email']);
-            if($retour)
-                echo '<p>Votre message a été envoyé.</p>';
-            else
-                echo '<p>Erreur.</p>';
-        }
-    }
-    ?>
-        </footer>
+        <?php require_once("./components/contact/contact.php") ?>
+        
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

@@ -4,8 +4,8 @@
             <img class="photo" src="./assets/image/moi.png" alt="#">
             <h1>NILS DA COSTA CRUZ</h1>
             <h3>DEVELOPPEUR WEB JUNIOR</h3>
-            <h5>Petite phrase d'accroche</h5>
-            <a href="./assets/docs/CV-Nils-Da_Costa_Cruz.pdf" class="btn btn-success">Mon CV</a>
+            <h5>"Celui qui croit savoir n'apprend plus"</h5>
+            <a href="./assets/docs/CV-Nils-Da_Costa_Cruz.pdf" class="btn btn-info">Retrouvez ici mon CV</a>
         </div>
     </div>
 
