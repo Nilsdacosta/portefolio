@@ -1,0 +1,104 @@
+#pageProjet{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.interieur{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+}
+.exterieur span {
+    font-size: 2em;
+}
+.interieur section{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.interieur section.visible{
+    display: inline-block;
+}
+.exterieur{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+.precedente, .suivante{
+    cursor: pointer;
+}
+
+.visible{
+    height: 100%;
+    width: 100%;
+}
+.projetUn{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-225deg, rgba(0, 136, 118, 0.4)0%, rgba(0, 136, 118, 0.6)50%), url('../../assets/image/fondQuatre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.projetDeux{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-225deg, rgba(168, 81, 0, 0.4)0%, rgba(168, 81, 0, 0.6)50%), url('../../assets/image/fondQuatre.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.retour{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 2em;
+    color: black;
+}
+.titreProjet{
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.5)0%, rgba(0, 0, 0, 0.8)50%);
+    border-bottom: 1px solid black;
+    color: white;
+    padding-top: 1%;
+}
+.bodyProjet{
+    position: relative;
+    height: 40vh;
+    overflow-y: scroll;
+    padding: 1%;
+}
+.footerProjet{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color : white;
+    padding: 1%;
+    text-align: center;
+}
+.footerProjet a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.footerProjet a:hover{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.bodyProjet a{
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+.bodyProjet a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

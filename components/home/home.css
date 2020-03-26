@@ -1,0 +1,140 @@
+/*--------------*/
+/* aPropos & co */
+/*--------------*/
+.home{
+    display: flex;
+}
+.retour{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 2em;
+    color: black;
+}
+#aPropos{
+    height: 84vh;
+    width: 65vw;
+    background-image: linear-gradient(-225deg, rgba(255, 255, 255, 0)0%,rgba(255, 255, 255, 0)50%), url('../../assets/image/fondSept.jpg');
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    animation: slidein 2s linear forwards;
+}
+#competence{
+    animation: slideinNav 2s linear forwards;
+}
+#formation{
+    animation: slideinNav 3s linear forwards;
+}
+#experience{
+    animation: slideinNav 4s linear forwards;
+}
+#projet{
+    animation: slideinNav 5s linear forwards;
+}
+.photo{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    box-shadow: 0 0 3em grey;
+}
+.content{
+    position: absolute;
+    /* display: none; */
+    top: 50%;
+    transform:translateY(-50%);
+    color: black;
+    animation: opacity 7s linear;
+}
+/* ------ */
+.navigation{
+    /* display: none; */
+    height: 21vh;
+    width: 35vw;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    background-image: url('../../assets/image/fondQuatre.jpg');
+    background-size: cover;
+}
+.navigation p{
+    position: absolute;
+    /* display: none; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2.5em;
+    animation: opacity 7s linear;
+}
+.contact{
+    /* display: none; */
+    height: 16vh;
+    width: 100vw;
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.4)0%, rgba(0, 0, 0, 0.6)50%), url('../../assets/image/fondQuatre.jpg');
+    background-size: cover;
+    background-position: center;
+    animation: slideinContact 5s linear forwards;
+}
+.fondNav{
+    width: 100%;
+    height: 100%;
+}
+.fondComp{
+    background: linear-gradient(-225deg, rgba(175, 227, 236, 0.2)0%, rgba(64, 195, 221, 0.7)50%);
+}
+.fondComp:hover{
+    background-image: linear-gradient(-225deg, rgba(194, 211, 214, 0.6)0%, rgba(49, 120, 134, 0.9)50%);
+}
+.fondExperience{
+    background-image: linear-gradient(-225deg, rgba(233, 124, 0, 0.2)0%, rgba(233, 124, 0, 0.7)50%);
+}
+.fondExperience:hover{
+    background-image: linear-gradient(-225deg, rgba(189, 167, 143, 0.6)0%, rgba(126, 68, 2, 0.9)50%);
+}
+.fondProjet{
+    background-image: linear-gradient(-225deg, rgba(255, 108, 108, 0.2)0%, rgba(255, 108, 108, 0.7)50%);
+}
+.fondProjet:hover{
+    background-image: linear-gradient(-225deg, rgba(185, 126, 126, 0.6)0%, rgba(105, 44, 44, 0.9)50%);
+}
+.fondFormation{
+    background-image: linear-gradient(-225deg, rgba(9, 104, 96, 0.2)0%, rgba(9, 104, 96, 0.7)50%);
+}
+.fondFormation:hover{
+    background-image: linear-gradient(-225deg, rgba(86, 109, 107, 0.6)0%, rgba(6, 70, 64, 0.9)50%);
+}
+
+@keyframes slidein {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+}
+@keyframes slideinNav {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes slideinContact {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+@keyframes opacity{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
